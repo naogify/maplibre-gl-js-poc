@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "importHelpers": false,
+    "isolatedModules": true,
+    //"importsNotUsedAsValues": "preserve",
+    "jsx": "react",
+    "module": "es2022",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es2017",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable",
+      "WebWorker"
+    ],
+    "types": ["node", "jest", "geojson", "offscreencanvas"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "bench/**/*.ts",
+    "bench/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "dist",
+    "bench/**/*generated*",
+    "src/**/*.test.ts"
+  ]
+}
